@@ -1,0 +1,20 @@
+.content{
+    background-color: rgb(226, 251, 251);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-top:20px;
+}
+.age-content{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+}
+.age{
+    width: 200px;
+    height: 20px;
+}

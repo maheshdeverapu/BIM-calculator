@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h3>BMI Calculator</h3>
+        <div class="age-content">
+            <label for="age">Age</label>
+            <input class="age" type="number" id="age">
+            <p class="ages">ages: 2 - 120</p>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input class="male" type="radio" id="Male" name="gender">
+            <label for="Male">Male</label>
+            <input class="female" type="radio" id="Female" name="gender">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <label for="height">Height</label>
+            <input class="height" type="number" id="height" placeholder="cm">
+            <p>positive values only</p>
+        </div>
+        <div>
+            <label for="Weight">Weight</label>
+            <input class="weight" type="number" id="Weight" placeholder="kg">
+            <p>positive values only</p>
+        </div>
+        <div>
+            <input type="button" onclick="calculate()" value="Calculate">
+            <input type="button" value="clears" onclick="clears()">
+        </div>
+        <div>
+            <h3>Result (BMI)</h3>
+            <p class="result"></p><span class="suggestion"></span>
+        </div>
+    </div>
+    <script src="./calculator.js" type="text/javascript"></script>
+</body>
+</html>
